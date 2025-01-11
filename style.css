@@ -1,0 +1,291 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-color: rgb(202, 205, 226);
+}
+
+/* login panel */
+.loginpanel {
+    background-color: aqua;
+    color: black;
+    height: 400px;
+    width: 60%;
+    border: 3px black double;
+    border-radius: 10px;
+    position: absolute;
+    top: 100px;
+    left: 260px;
+    background-image: url("https://i.pinimg.com/736x/5a/39/42/5a394219faaf85d2ddb20772e793249f.jpg");
+    background-size: contain;
+}
+
+.loginpanel:active {
+    background-size: contain;
+    background-image: url("https://cdni.sexygirlspics.com/460/1/149/90896849/90896849_005_88c7.jpg");
+}
+
+.loginbox {
+    position: absolute;
+    top: 130px;
+    left: 170px;
+}
+
+.logininput {
+    border: 2px black solid;
+    border-radius: 10px;
+    width: 400px;
+    height: 30px;
+}
+
+.passbox {
+    position: absolute;
+    top: 180px;
+    left: 125px;
+}
+
+.passinput {
+    border: 2px rgb(2, 2, 2) solid;
+    border-radius: 10px;
+    width: 400px;
+    height: 30px;
+
+}
+
+.login {
+    width: 100px;
+    height: 20px;
+    border: 1px rgb(255, 255, 255) solid;
+    border-radius: 10px;
+    position: absolute;
+    top: 225px;
+    left: 200px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.login:hover {
+    background-color: lightcyan;
+}
+
+.logina {
+    text-align: center;
+}
+
+/* after login page */
+/* login nav */
+.loginbody {
+    background-image: url("images/loginback.jpg");
+    background-size: cover;
+}
+
+.navbar {
+    height: 60px;
+    background-color: rgb(241, 236, 236);
+    display: flex;
+}
+
+.nav1 {
+
+    height: 20px;
+    width: 5%
+}
+
+.nav2 {
+    position: relative;
+    top: 18px;
+    left: 180px;
+    height: 20px;
+    width: 5%;
+    background-color: brown;
+    border: 2px black solid;
+    border-radius: 8px;
+    text-align: center;
+}
+
+#nav2 {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.nav3 {
+    position: relative;
+    top: 18px;
+    left: 220px;
+    height: 20px;
+    width: 5%;
+    background-color: brown;
+    border: 2px black solid;
+    border-radius: 8px;
+    text-align: center;
+}
+
+#nav3 {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.nav4 {
+    position: relative;
+    top: 18px;
+    left: 260px;
+    height: 20px;
+    width: 5%;
+    background-color: brown;
+    border: 2px black solid;
+    border-radius: 8px;
+    text-align: center;
+}
+
+#nav4 {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.nav5 {
+    position: relative;
+    top: 18px;
+    left: 300px;
+    height: 20px;
+    width: 5%;
+    background-color: brown;
+    border: 2px black solid;
+    border-radius: 8px;
+    text-align: center;
+}
+
+#nav5 {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.nav6 {
+    position: relative;
+    top: 18px;
+    left: 340px;
+    height: 20px;
+    width: 5%;
+    background-color: brown;
+    border: 2px black solid;
+    border-radius: 8px;
+    text-align: center;
+}
+
+#nav6 {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.nav7 {
+    position: relative;
+    top: 18px;
+    left: 380px;
+    height: 20px;
+    width: 5%;
+    background-color: brown;
+    border: 2px black solid;
+    border-radius: 8px;
+    text-align: center;
+}
+
+#nav7 {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+/* login main */
+.loginmain {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.lbox {
+    height: 510px;
+    width: 390px;
+    margin-top: 20px;
+    border: 2px pink solid;
+    border-radius: 20px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+#lbox {
+    height: 510px;
+    width: 390px;
+    border-radius: 20px;
+
+}
+
+.lbox:hover {
+    transform: scale(1.1, 1.1);
+    transition: all 0.5s ease;
+    border: 2px red solid;
+}
+
+
+/* nudes page */
+.nudesbody {
+    background-image: url("https://w.wallhaven.cc/full/ne/wallhaven-neqgyw.jpg");
+    background-size: cover;
+}
+
+.nudesmain {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.nbox {
+    height: 510px;
+    width: 390px;
+    margin-top: 20px;
+    border: 2px rgb(108, 180, 214) solid;
+    border-radius: 20px;
+    margin-right: 25px;
+    margin-left: 25px;
+
+}
+
+#nbox {
+    height: 510px;
+    width: 390px;
+    border-radius: 20px;
+}
+
+.nbox:hover {
+    transform: scale(1.1, 1.1);
+    transition: all 0.5s ease;
+    border: 2px rgba(255, 0, 0, 0.329) solid;
+}
+
+/* videos page */
+
+.videosbody {
+    background-size: cover;
+    background-image: url("https://w.wallhaven.cc/full/g7/wallhaven-g77v9e.jpg");
+}
+
+.videosmain {
+    display: flex;
+    justify-content: space-evenly;
+flex-wrap: wrap;
+}
+.vbox {
+    height: 520px;
+    width:40vw;
+   margin-top: 40px; 
+   background-color: rgb(31, 28, 28);
+   display: flex;
+    justify-content: center;
+}
+
+
+#vbox {
+    height: 480px;
+    width: 480px;
+}
